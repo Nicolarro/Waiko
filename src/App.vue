@@ -1,16 +1,22 @@
 <template>
+  <AppHeader />
   <router-view/>
   <WhatsappBtt />
+  <AppFooter />
 </template>
 
 
 <script>
 import WhatsappBtt from '@/components/WhatsappBtt.vue';
+import AppHeader from '@/components/AppHeader.vue';
+import AppFooter from '@/components/AppFooter.vue';
 
 export default {
   name: 'App',
   components: {
-    WhatsappBtt
+    WhatsappBtt,
+    AppHeader,
+    AppFooter
   }
 }
 </script>

@@ -1,16 +1,14 @@
 <template>
   <div class="home">
     <AppHeader />
-    <div class="hero-section">
-      <!-- Contenido de la Hero -->
-    </div>
+
     <AppFooter />
   </div>
 </template>
 
 <script>
-import AppHeader from '@/components/AppHeader.vue'; // Cambié el nombre del componente
-import AppFooter from '@/components/AppFooter.vue'; // Cambié el nombre del componente
+import AppHeader from '@/components/AppHeader.vue';
+import AppFooter from '@/components/AppFooter.vue';
 
 export default {
   name: 'HomePage', // Cambio de nombre
