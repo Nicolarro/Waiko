@@ -1,10 +1,19 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
   <router-view/>
+  <WhatsappBtt />
 </template>
+
+
+<script>
+import WhatsappBtt from '@/components/WhatsappBtt.vue';
+
+export default {
+  name: 'App',
+  components: {
+    WhatsappBtt
+  }
+}
+</script>
 
 <style lang="scss">
 #app {

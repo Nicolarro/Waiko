@@ -1,18 +1,32 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <AppHeader />
+    <div class="hero-section">
+      <!-- Contenido de la Hero -->
+    </div>
+    <AppFooter />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import AppHeader from '@/components/AppHeader.vue'; // Cambié el nombre del componente
+import AppFooter from '@/components/AppFooter.vue'; // Cambié el nombre del componente
 
 export default {
-  name: 'HomeView',
+  name: 'HomePage', // Cambio de nombre
   components: {
-    HelloWorld
+    AppHeader,
+    AppFooter
   }
-}
+};
 </script>
+
+<style scoped>
+.home {
+  margin-top: 100px; /* Espacio para el header fijo */
+}
+.hero-section {
+  height: 100vh; /* Pantalla completa */
+  /* background: url('../assets/hero-image.jpg') no-repeat center center/cover; */
+}
+</style>
