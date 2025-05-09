@@ -1,7 +1,8 @@
 <template>
   <footer class="footer">
     <p>
-      Evaluación de Impacto Ambiental - Impacto Acústico - Seguridad e Higiene Laboral
+      Evaluación de Impacto Ambiental - Impacto Acústico - Seguridad e Higiene
+      Laboral
     </p>
   </footer>
 </template>
@@ -14,11 +15,11 @@ export default {
 
 <style scoped>
 .footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #144553;
+  background-color: #75634f;
   color: #fff;
   text-align: center;
   padding: 10px;

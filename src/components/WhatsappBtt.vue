@@ -12,8 +12,8 @@
 
 <script>
 export default {
-  name: 'WhatsAppButton'
-}
+  name: "WhatsAppButton",
+};
 </script>
 
 <style scoped>
@@ -21,7 +21,7 @@ export default {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #25D366;
+  background-color: #25d366;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -29,7 +29,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .whatsapp-button img {
